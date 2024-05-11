@@ -1,0 +1,17 @@
+﻿@model List<DoctorOnline.BL.Dtos.TestDto>
+
+
+<div>
+    <h1> There are all tests in DB </h1>
+    <ul>
+        @foreach(var test in Model)
+        {
+            <li>Id: @test.Id, @test.Name 
+                <br/>
+                <a class="nav-link text-blue" asp-area="" asp-controller="Test" asp-action="find" asp-route-id="@test.Id"> Show more details</a>
+
+            </li>
+
+        }
+    </ul>
+</div>

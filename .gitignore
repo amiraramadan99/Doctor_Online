@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/DoctorOnline/.vs
+/DoctorOnline/DoctorOnline.BL/bin/Debug/net7.0
+/DoctorOnline/DoctorOnline.PL/bin/Debug/net7.0
+/DoctorOnline/DoctorOnline.PL/obj
+/DoctorOnline/DoctorOnline.DAL/bin/Debug/net7.0
+/DoctorOnline/DoctorOnline.DAL/obj
+/DoctorOnline/DoctorOnline.BL/obj
